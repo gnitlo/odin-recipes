@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(95, 95, 95);
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+.item{
+    display:block;
+    width:32%;
+    margin: 10px auto;
+}
+img,
+a{
+    filter: opacity(75%);
+}
+img:hover,
+a:hover{
+    filter: opacity(100%);
+}
